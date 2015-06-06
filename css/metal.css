@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'neo-noir';
+    src: url('../fonts/SNNeoNoire-Regular-webfont.eot');
+    src: url('../fonts/SNNeoNoire-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SNNeoNoire-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/SNNeoNoire-Regular-webfont.woff') format('woff'),
+         url('../fonts/SNNeoNoire-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/SNNeoNoire-Regular-webfont.svg#sn_neonoireregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, .lightening-canvas {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-image: linear-gradient( #000000 20%, #5617cc 60%, #cc175a 80%)
+}
+
+body {
+	background-image: url(../img/atlanta.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	width:100%;
+	height: 100%;
+}
+
+.logo {
+	position:absolute; 
+	top: 6rem; 
+	left: 2%; 
+	max-width: 80%; 
+}
+
+.lightening-canvas {
+	display: block;
+}
