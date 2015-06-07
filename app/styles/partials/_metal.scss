@@ -16,7 +16,7 @@ html, body, .lightening-canvas {
 	padding: 0;
 }
 html {
-	background-image: linear-gradient( #000000 20%, #5617cc 60%, #cc175a 80%)
+	background-image: linear-gradient( #000000 20%, #5617cc 60%, #cc175a 80%);
 }
 
 body {
@@ -50,3 +50,24 @@ body {
     opacity: .5;
   }
 }
+
+.perspective {  position:fixed; z-index:1; top:50%; left:50%; margin-left:-400px; width:800px; height:700px; overflow: visible;
+    -webkit-transform: perspective(300) rotateX(0deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-perspective:300px;
+    -moz-transform: rotateX(0deg);
+    -moz-transform-style: preserve-3d;
+    overflow:hidden;
+}
+
+.crawl { 
+  padding-top:0px; 
+  position:absolute; 
+  z-index:10; top:430px; 
+  font-family: 'Metal Mania', cursive;
+  font-size:60px;
+  text-decoration: normal;
+  color:  #da8aff;
+
+}
+

@@ -1,2 +1,3 @@
 /* jshint devel:true */
-console.log('\'Allo \'Allo!');
+
+TweenLite.to($('.crawl'), 80, {css:{top:-2600}, ease:Linear.easeNone});
