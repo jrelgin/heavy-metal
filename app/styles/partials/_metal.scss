@@ -38,3 +38,15 @@ body {
 .lightening-canvas {
 	display: block;
 }
+
+#sound-cloud {
+  position:absolute;
+  bottom :0;
+  right: 0;
+  z-index:999;
+  width:100%;
+  iframe {
+    width: 100%;
+    opacity: .0;
+  }
+}
