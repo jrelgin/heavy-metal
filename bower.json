@@ -1,0 +1,7 @@
+{
+  "name": "team-heavy-metal",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
