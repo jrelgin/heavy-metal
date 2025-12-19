@@ -1,7 +1,6 @@
 #Team Heavy Metal
 `npm install`
-`bower install`
-`gulp serve`
+`npx gulp serve`
 
 ## \m/(>.<)\m/
 http://teamheavymetal.com
